@@ -6,7 +6,10 @@ namespace Tienda
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Datos.Menu menu = new Datos.Menu();
+            menu.menuprincipal();
+            Console.ReadKey();
+            
         }
     }
 }
